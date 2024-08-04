@@ -13,22 +13,22 @@ The project structure follows the Clean Architecture principles and is organized
 
 ```
 .
-├── app					# Contains main android app code
-├── data/ 				# Data level directory
+├── app			        # Contains main android app code
+├── data/ 		        # Data level directory
 │   ├── dao 			# Performing operation on the local database.
 │   ├── entity 			# Entity data
 │   ├── local 			# Local data source (Room, SharedPreferences, etc.)
 │   ├── model 			# Model data
 │   ├── remote 			# Remote data source (Retrofit, APIs)
 │   └── repository 		# Repository implementations
-├── di 					# Dependency Injection module (Hilt)
+├── di 		                # Dependency Injection module (Hilt)
 ├── domain/ 			# Domain level directory
 │   ├── item 			# Domain models
 │   ├── repository 		# Repository interfaces
 │   └── usecase 		# Use cases
 ├── navigation 			# Handling App Navigation
-├── ui 					# UI Screens and their viewmodels and states
-└── utils 				# Helper classes that are shared 
+├── ui 			        # UI Screens and their viewmodels and states
+└── utils 		        # Helper classes that are shared 
 ```
 
 ### Libraries and Technologies
@@ -49,7 +49,7 @@ To get started with the project, follow these steps:
 
 ```
 1. Clone the repository:
-https://gitlab.com/bagussubagja/jetpack-compose-codebase.git
+https://github.com/bagussubagja/jetpack-compose-template.git
 2. Open the project in Android Studio.
 3. Build and run the app on an emulator or physical device.
 ```
@@ -58,7 +58,7 @@ https://gitlab.com/bagussubagja/jetpack-compose-codebase.git
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
 When contributing, please follow the existing code style and conventions, and provide clear and detailed descriptions of your changes.
 
-Author - Bagus Subagja (Last Modified: 26 April 2024)
+Author - Bagus Subagja (Last Modified: 26 April 2024 on gitlab, moved to github 04 August 2024)
 
 #### License
 
